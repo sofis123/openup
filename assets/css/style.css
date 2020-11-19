@@ -1,3 +1,8 @@
+.major {
+    text-align: center;
+}
+
+
 .container-bio-flex {
     display: flex
 }
@@ -10,7 +15,8 @@
 .bio {
     display: flex;
     flex-direction: column;
-    margin: 15px 20px
+    margin: 15px 20px;
+    flex: 1;
 }
 
 .bio h2 {
@@ -20,10 +26,12 @@
 
 .bio p {
     margin-top: 10%;
+    height: 350px;
 }
 
 .bio a {
     margin-top: 10%;
+    margin-bottom: 20%;
 }
 
 .bio-foto {
