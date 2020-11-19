@@ -1,0 +1,19 @@
+.container-bio {
+    display: flex
+}
+
+
+.container-bio h1 {
+        text-align: center;
+    }
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bio-foto {
+    border-radius: 50%;
+    width: 30%;
+}
