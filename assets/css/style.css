@@ -1,3 +1,7 @@
+.container-bio {
+    display: flex
+}
+
 
 .container-bio h1 {
         text-align: center;
@@ -11,5 +15,5 @@
 
 .bio-foto {
     border-radius: 50%;
-    width: 100%;
+    width: 30%;
 }
