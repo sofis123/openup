@@ -1,4 +1,4 @@
-.container-bio {
+.container-bio-flex {
     display: flex
 }
 
@@ -10,7 +10,20 @@
 .bio {
     display: flex;
     flex-direction: column;
-    
+    margin: 15px 20px
+}
+
+.bio h2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.bio p {
+    margin-top: 10%;
+}
+
+.bio a {
+    margin-top: 10%;
 }
 
 .bio-foto {
