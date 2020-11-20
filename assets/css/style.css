@@ -2,21 +2,32 @@
     text-align: center;
 }
 
-
 .container-bio-flex {
-    display: flex
+    display: flex;
+    max-width: 100%;
+    width: 75em;
+    margin: 0 auto;
+    padding: 0em 4em 0em 4em;
 }
-
 
 .container-bio h1 {
         text-align: center;
+        margin-bottom: 2em;
     }
 
 .bio {
     display: flex;
     flex-direction: column;
-    margin: 15px 20px;
+    margin: 0px 20px;
     flex: 1;
+}
+
+.bio:first-child {
+    margin-left: 0px;
+}
+
+.bio:last-child {
+    margin-right: 0px;
 }
 
 .bio h2 {
@@ -26,12 +37,18 @@
 
 .bio p {
     margin-top: 10%;
-    height: 350px;
+    height: 400px;
 }
 
 .bio a {
     margin-top: 10%;
     margin-bottom: 20%;
+    color: #0C1B33;
+    border-bottom: dotted 1px #0C1B33;
+}
+
+.bio a:hover {
+    opacity: 0.4;
 }
 
 .bio-foto {
