@@ -1995,7 +1995,12 @@ input, select, textarea {
 		.features iframe {
 			width: 560px;
 			height: 315px;
-	  	}
+		  }
+		  
+		.maker-sprint {
+			width: 560px;
+			height: 315px;
+		  }
 
 		.features section {
 			width: 50%;
@@ -2604,6 +2609,12 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+			}
+
+			.process-iframe {
+				display: flex;
+				justify-content: center;
+				margin: 0 0 2em 0;
 			}
 
 		.image.main {
