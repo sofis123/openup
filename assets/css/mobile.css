@@ -8,6 +8,18 @@
       height: auto;
     }
 
+    .features iframe {
+      width: 280px;
+      height: 157px;
+    }
+
 
 }
-  
+
+@media screen and (max-width: 480px) {
+
+  .features section {
+    padding: 0px;
+  }
+
+}
