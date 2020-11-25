@@ -56,3 +56,11 @@
     width: 30%;
 }
 
+.image-sprint {
+    display: flex;
+    justify-content: center;
+}
+
+.image-sprint img {
+    width: 50%;
+}
