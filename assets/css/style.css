@@ -37,7 +37,7 @@
 
 .bio p {
     margin-top: 10%;
-    height: 400px;
+    flex: auto;
 }
 
 .bio a {
