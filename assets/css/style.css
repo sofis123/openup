@@ -64,3 +64,11 @@
 .image-sprint img {
     width: 100%;
 }
+
+.sdg {
+    display: flex;
+}
+
+.sdg img {
+    width: 20%;;
+}
