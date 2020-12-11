@@ -72,3 +72,13 @@
 .sdg img {
     width: 20%;;
 }
+
+.inner a {
+    text-decoration: underline;
+
+}
+
+.inner 	a:hover {
+    border-bottom-color: transparent;
+    color: #000000;
+}
