@@ -35,9 +35,9 @@
     margin-bottom: 0%;
 }
 
-.bio p {
-    margin-top: 10%;
-    height: 400px;
+.bio h3 {
+    margin-top: 0%;
+    flex: auto;
 }
 
 .bio a {
@@ -63,4 +63,22 @@
 
 .image-sprint img {
     width: 100%;
+}
+
+.sdg {
+    display: flex;
+}
+
+.sdg img {
+    width: 20%;;
+}
+
+.inner a {
+    text-decoration: underline;
+
+}
+
+.inner 	a:hover {
+    border-bottom-color: transparent;
+    color: #000000;
 }
