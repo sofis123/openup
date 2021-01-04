@@ -3257,21 +3257,28 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #0C1B33;
+			background-color: #1A1919;
 		}
 
 		.wrapper.style1 {
-			background-color: #0C1B33;
+			background-color: #1A1919;
 		}
 
-		.wrapper.style1 p, .wrapper.style1 h2 {
+		.wrapper.style1 p, .wrapper.style1 h2, .wrapper.style1 h3 {
 			color: #FCFAFA;
 		}
+
+		.wrapper.style1 .button {
+			border-color: #FCFAFA !important;
+			color: #FCFAFA !important;
+		}
+
+		
 
 
 
 		.wrapper.style1-alt {
-			background-color: #0C1B33;
+			background-color: #1A1919;
 		}
 
 		.wrapper.style2 {
@@ -3397,7 +3404,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #0C1B33;
+		background-color: #1A1919;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3551,7 +3558,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #0C1B33;
+		background: #1A1919;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3588,7 +3595,7 @@ input, select, textarea {
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
-			background-color: #0C1B33;
+			background-color: #1A1919;
 		}
 
 			body.is-ie #sidebar > .inner {
